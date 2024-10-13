@@ -9,9 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#F7F7F7",
+        primary: "#091953",
+        secondary: "#EBFF00",
       },
+      fontFamily: {
+        bebas: ['Bebas Neue', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        orbitron: ['Orbitron', 'serif'],
+      },
+      fontWeight: {
+        400: '400',
+        700: '700',
+      }
     },
   },
   plugins: [],
