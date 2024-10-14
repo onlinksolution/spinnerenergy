@@ -41,14 +41,14 @@ const Navbar = () => {
           <Image src='/logo.png' alt="logo" width={0} height={0} sizes="100vw" className="w-44" />
         </Link>
 
-        <div id="menu-bar" className="max-sm:fixed max-sm:left-0 max-sm:top-[-100%] max-sm:w-full max-sm:h-1/2 max-sm:bg-primary max-sm:rounded-b-full flex max-sm:flex-col max-sm:text-center max-sm:justify-center max-sm:gap-10 duration-500 transition-all max-sm:py-12">
+        <div id="menu-bar" className="max-sm:fixed max-sm:left-0 max-sm:top-[-100%] max-sm:w-full max-sm:h-2/3 max-sm:bg-primary max-sm:rounded-b-full flex max-sm:flex-col max-sm:text-center max-sm:justify-center max-sm:gap-10 duration-500 transition-all max-sm:py-12">
           <ul className="max-sm:gap-10 flex max-sm:flex-col sm:gap-4 md:gap-12">
             {NAVLIST.map((list) => (
               <li key={list.key}><Link href={list.href} className="text-white font-bebas max-sm:text-3xl sm:text-lg lg:text-2xl hover_effect duration-300 transition-all">{list.label}</Link></li>
             ))}
           </ul>
           <div>
-            <Link href='/contact-us' className="sm:hidden font-bebas text-3xl bg-white py-3 px-5 rounded-full hover:bg-white hover:text-black transition-all duration-300" >Contact Us</Link>
+            <Link href='/contact-us' className="sm:hidden font-bebas text-3xl py-3 px-5 rounded-full bg-transparent border-white border text-white hover:text-black hover:bg-white transition-all duration-300" >Contact Us</Link>
           </div>
 
           <div>

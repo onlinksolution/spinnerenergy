@@ -28,9 +28,9 @@ const Events = () => {
 
           <div className='mt-10 px-5 grid gap-5 md:grid-cols-2 lg:grid-cols-3 opacity-0 translate-y-20' id='samplet'>
             {EVENTS.map((list, i) => (
-              <article className='bg-white rounded-2xl grid gap-4 ' key={i}>
+              <article className='bg-white overflow-hidden rounded-2xl grid gap-4 ' key={i}>
                 <div className='relative'>
-                  <Image src={list.img} alt='event' width={0} height={0} sizes='100vw' className='w-full h-auto rounded-t-2xl' />
+                  <Image src={list.img} alt='event' width={0} height={0} sizes='100vw' className='w-full h-auto rounded-t-2xl duration-300 transition-all hover:scale-105' />
                   <div className='w-8 h-8 bg-[#EDEDED] rounded-3xl absolute -bottom-5 -left-5'></div>
                   <div className='w-8 h-8 bg-[#EDEDED] rounded-3xl absolute -bottom-5 -right-5'></div>
                 </div>
