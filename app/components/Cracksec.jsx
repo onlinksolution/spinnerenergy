@@ -66,7 +66,7 @@ const Cracksec = () => {
       <section id='main'>
         <div className='crack_sec relative' id='crack'>
           <h2 className='pt-20 text-center uppercase text-transparent font-roboto crack_topic font-700 text-5xl md:text-6xl lg:text-7xl opacity-0 translate-y-20' id='fuel'>Fuel Your Drive</h2>
-          <Image src='/spinner-crack-without-bg.png' alt='crack-img' quality={100} draggable='false' width={0} height={0} sizes='100vw' className='w-full h-full absolute bottom-0 object-cover opacity-0 -translate-y-96' id='crack-img' />
+          <Image src='/spinner-crack-without-bg.png' alt='crack-img' unoptimized draggable='false' width={0} height={0} sizes='100vw' className='w-full h-full absolute bottom-0 object-cover opacity-0 -translate-y-96' id='crack-img' />
           <div className='main_container max-md:hidden mt-16'>
             <div className='flex justify-start opacity-0 translate-x-20' id='crack-left'>
               <p className='text-[#EBFF00] font-roboto text-center uppercase text-2xl mt-5'>Ready for<br /><span className='text-white'>Day parties</span></p>
