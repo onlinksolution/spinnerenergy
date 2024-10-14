@@ -59,7 +59,7 @@ const Hero = () => {
 
                 </div>
               </div>
-              <Image src='/hero_img_1.png' alt="hero-img-1" width={0} height={0} quality={100} className="w-full h-screen object-cover object-[70%]" sizes="100vw" fill id="hero-img" />
+              <Image src='/hero_img_1.png' alt="hero-img-1" width={0} height={0} unoptimized className="w-full h-screen object-cover object-[70%]" sizes="100vw" id="hero-img" />
             </div>
           </SwiperSlide>
 
@@ -74,7 +74,7 @@ const Hero = () => {
 
                 </div>
               </div>
-              <Image src='/hero_img_2.jpg' alt="hero-img-2" width={0} height={0} className="w-full h-screen object-cover object-[20%]" sizes="100vw" id="hero-img" />
+              <Image src='/hero_img_2.jpg' alt="hero-img-2" width={0} unoptimized height={0} className="w-full h-screen object-cover object-[20%]" sizes="100vw" id="hero-img" />
             </div>
           </SwiperSlide>
 
@@ -89,7 +89,7 @@ const Hero = () => {
 
                 </div>
               </div>
-              <Image src='/hero_img_3.jpg' alt="hero-img-3" width={0} height={0} className="w-full h-screen object-cover object-[20%]" sizes="100vw" id="hero-img" />
+              <Image src='/hero_img_3.jpg' alt="hero-img-3" width={0} height={0} unoptimized className="w-full h-screen object-cover object-[20%]" sizes="100vw" id="hero-img" />
             </div>
           </SwiperSlide>
         </Swiper>
