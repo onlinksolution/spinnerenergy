@@ -13,7 +13,7 @@ const Joinus = () => {
       y: 0, opacity: 1,
       scrollTrigger: {
         trigger: '#join',
-        toggleActions: 'restart reverse restart reverse',
+        toggleActions: 'restart none none none',
       }
     })
   }, [])
