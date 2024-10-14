@@ -46,7 +46,7 @@ const Footer = () => {
 
         <div className='flex flex-col gap-4 mt-4 md:justify-between md:flex-row'>
           <p className='text-sm text-center text-slate-200'>&copy; 2024 spinner energy drink. All rights reserved.</p>
-          <p className='text-slate-100 text-center text-sm'>Developed by <Link href='https://onlinksolutions.online/' className='hover:underline duration-300 transition-all'>Onlink Solutions.</Link></p>
+          <p className='text-slate-100 text-center text-sm'>Developed by <Link href='https://fazildev.online/' className='hover:underline duration-300 transition-all'>MHD Fazil.</Link></p>
         </div>
       </div>
     </footer>
